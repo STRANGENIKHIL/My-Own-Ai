@@ -160,7 +160,9 @@ public:
 };
 
 // =====================================================================
-//  HNSW — Hierarchical Navigable Small World
+//  HNSW
+// Hierarchical Navigable Small World Graph implementation
+// Builds a multi-layer graph for fast O(log N) vector retrieval — Hierarchical Navigable Small World
 // =====================================================================
 
 class HNSW {
