@@ -34,6 +34,7 @@ using DistFn = std::function<float(const std::vector<float>&, const std::vector<
 
 // =====================================================================
 //  DISTANCE METRICS
+// Handles Euclidean, Cosine, and Manhattan distance metrics
 // =====================================================================
 
 float euclidean(const std::vector<float>& a, const std::vector<float>& b) {
